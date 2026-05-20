@@ -1,0 +1,7 @@
+Summary
+
+1.variables declare and assign
+2.diffrence between let - const - var
+3.what is scope & variable scope
+4.hoisting & hoisting work in let - const - var 
+5.variables store any kind of data
