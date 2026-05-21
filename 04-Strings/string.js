@@ -1,4 +1,4 @@
-// string datatype and methods
+// string datatype and methods or type conversion
 // string banana ka lia Quotes ka use hota hai
 // 1. double quotes ""
 // 2. single quotes ''
@@ -71,3 +71,31 @@ console.log(str5)
 console.log(str5.trim());
 // trim method unnessicery space remove krdeta hai
 
+
+// type conversion 
+// string ko number ma convert krna
+// number ko string ma convert krna
+let numbar = 22;
+// console.log(typeof numbar) // ya number hai
+// isko string ma convert krna ka lia 
+let numberToString = numbar.toString()
+console.log(numberToString) // number se string ma convert
+console.log(typeof numberToString) // is ka type string ha
+console.log(String(numberToString)) // another method tu convert number into string
+
+// string ko number ma convert krna
+let str0 = '50.98'
+console.log(typeof str0) // ya string ha
+let stringToNumber = parseInt(str0)//
+console.log(typeof stringToNumber) // string ko number ma convert kia
+console.log(stringToNumber) // datatype number ha 
+console.log(parseFloat(str0))
+
+// summary
+// ya dono tariqa se number ko string ma convert kar sakta hai
+// .toString
+// string()
+// teen tariqa ha string ko number ma convert krna ka
+// number()    // ya normal number ka lia
+// parseInt()  // ya bhi normal number ka lia
+// parseFloat() // ya float number ka lia
