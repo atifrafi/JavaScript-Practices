@@ -37,6 +37,14 @@ let symbol1= Symbol(20);
 let symbol2= Symbol(20);
 console.log(symbol1 == symbol2)  // false ayega
 // reason: dekhna ma same ha lakin reality ma symbol ki value unique hoti hai
+// -----------
+// boolean - ya true or false return krta ha
+// js ma undefined , NaN , empty Quotes , null , 0 , -0 , false ya sab falsy values ha
+// agr inma se koi value ha tu wo boolean ma false return karega
+let a= null
+console.log(a && true)
+// ya pr null return hoga kyo ka and operator pheli falsy value return krdeta ha
+
 
 // 2.Non Primitive(Refrence) Data Types
 // ya aisa data type ha ju multiple values store kar sakta hai
