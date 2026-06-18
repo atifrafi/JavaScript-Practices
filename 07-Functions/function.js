@@ -43,3 +43,4 @@ let callbackFunc = function (){
 
 // console.log(higherOrderFunc(callbackFunc)) // ya undefined dega console ki waja sa
 higherOrderFunc(callbackFunc)
+
