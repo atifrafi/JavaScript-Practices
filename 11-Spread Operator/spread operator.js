@@ -2,6 +2,7 @@
 // ya ek single value ko multiple value ma break kr deta hai
 // means ka spread krdeta
 // spread operator ...
+// is ka lia ek term use hoti hai destructuring
 
 // spread with function 
 let add_function = (a,b,c)=>{
@@ -41,3 +42,9 @@ let combine_both_object = {...obj1, ...obj2}
 console.log(combine_both_object)
 // du object ki values ko spread karka third object ma dal di.
 // using spread operator
+
+
+
+// conclusion 
+// spread operator ka use object , array , function ko destructure karna ka lia hota hai
+// ya ek bohat important concept hai
