@@ -1,1 +1,5 @@
 // array methods
+
+// map 
+// filter 
+// reduce
