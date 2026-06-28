@@ -59,4 +59,3 @@ let resultarr3 = arr3.reduce((acc,curr)=>{
 console.log(resultarr3 ,'result')
 
 
-sdjfkjdsf
